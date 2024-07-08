@@ -1,0 +1,48 @@
+
+[
+  {
+    "title": "LinkedIn",
+    "link": "https://www.linkedin.com/in/chandni-jha-831987211/",
+    "icon": "LinkedIn"
+  },
+  {
+    "title": "GitHub",
+    "link": "https://github.com/ChandniJha630",
+    "icon": "GitHub"
+  },
+  {
+    "title": "LeetCode",
+    "link": "https://leetcode.com/ChandniJha/",
+    "icon": "Code"
+  },
+  {
+    "title": "Medium",
+    "link": "https://medium.com/@chandnijha630",
+    "icon": "Article"
+  },
+  {
+    "title": "YouTube (QuantaBytes)",
+    "link": "https://www.youtube.com/@QuantaBytes",
+    "icon": "YouTube"
+  },
+  {
+    "title": "YouTube (RhythmofThoughts)",
+    "link": "https://www.youtube.com/@RhythmofThoughts",
+    "icon": "Subscriptions"
+  },
+  {
+    "title": "Books on Amazon",
+    "link": "https://www.amazon.in/s?k=chandni+jha+poetry&ref=nb_sb_noss",
+    "icon": "Book"
+  },
+  {
+    "title": "Instagram",
+    "link": "https://www.instagram.com/chandnijha630/",
+    "icon": "Instagram"
+  },
+  {
+    "title": "Twitter",
+    "link": "https://twitter.com/Chandni95600362",
+    "icon": "Twitter"
+  }
+]

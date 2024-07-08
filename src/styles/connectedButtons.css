@@ -1,0 +1,28 @@
+.indicator-container {
+    position: absolute;
+    top: 0;
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .selected-indicator {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 42px;
+  }
+  
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flex {
+    justify-content: space-between
+  The Icon
+  }  

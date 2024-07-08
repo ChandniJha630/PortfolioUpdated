@@ -1,0 +1,45 @@
+[
+    {
+      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/10e6a393-9663-4b17-befb-92e7adfdd0ef",
+      "title": "Chat Application",
+      "description": "Responsive user interface having features like signup, login, send friend request, accept friend request, chat, create and manage group, delete chat, leave groups, send attachments, notification, search friends, animation while user on other side typed on chat with current user. React, redux toolkit with material-ui was incorporated. Mongodb and Mongoose were used for data modeling, storage and retrieval JWT tokenization accompanied with Bcrypt ensured secure authentication. REST api were created for all visible functionalities.",
+      "link": "https://chat-frontend-teal.vercel.app/",
+      "status": "live"
+    },
+    {
+      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/43246417-5332-429e-b460-76bf39c385a2",
+      "title": "Blogging Application",
+      "description": "Developed a full stack blogging website with MERN stack with authentication and crud functionalities.",
+      "link": "https://insights-ashy.vercel.app/",
+      "status": "live"
+    },
+    {
+      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/1420f267-129f-418f-81bc-812c283e901c",
+      "title": "Video Streaming Application FrontEnd",
+      "description": "Developed a full stack movie streaming platform using IMDB movie api, with searching, filtering, video playing, movie previewing functionalities like any other modern movie streaming platforms like netflix.",
+      "link": "https://moviex-nine.vercel.app/",
+      "status": "live"
+    },
+    {
+      "thumbnail": "https://toppng.com/show_download/227713/exercise-silhouette-fitness-centre-woman-general-fitness-silhouette-exercise",
+      "title": "Fitness Application",
+      "description": "A Fitness Application was built with python, Streamlit and PLSQL for providing user fitness suggestion.",
+      "link": "",
+      "status": "Code Available"
+    },
+    {
+        "thumbnail": "https://i.pinimg.com/736x/05/48/16/0548167ada206571d8d501731bcfed6c.jpg",
+        "title": "Video Streaming Platform Backend",
+        "description": "Fully Functional server with Rest API for integrated twitter and youtube like platform ",
+        "link": "https://github.com/ChandniJha630/Youtube-Backend",
+        "status": "Code Available"
+      },
+    {
+      "thumbnail": "https://t3.ftcdn.net/jpg/05/14/75/82/360_F_514758236_i8rnB85PVdEaK19yGaK0TpaYEYMyxOL5.jpg",
+      "title": "E-Kart Application",
+      "description": "Full Stack E-Kart Application with separate user and admin Dashboard built using MERN Stack with payment integration.",
+      "link": "",
+      "status": "Working On It"
+    }
+  ]
+  
