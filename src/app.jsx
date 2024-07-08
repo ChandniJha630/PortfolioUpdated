@@ -3,7 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './Layout.jsx';
 import Loader from './Components/Loader.jsx';
 
-const Background = lazy(() => import('./Components/Background.jsx'));
+const Background = lazy(() => import('./Components/background.jsx'));
 const About = lazy(() => import('./Components/about.jsx'));
 const Contact = lazy(() => import('./Components/contact.jsx'));
 const Experience = lazy(() => import('./Components/Experience.jsx'));
