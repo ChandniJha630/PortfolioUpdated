@@ -18,7 +18,7 @@ function Navbar() {
     }
     
   return (
-    <header className='sticky z-50 top-0 bg-blue-900 bg-opacity-30'>
+    <header className='sticky z-50 top-0'>
       <nav>
         <ul className='flex nav-text text-xl lg:text-sm justify-end gap-12 justify-items-center md:block md:fixed md:right-0 md:top-0'>
         <li className='invisible md:visible md:pt-2 md:pr-2' onClick={toggleClasses}><MenuIcon/></li>
