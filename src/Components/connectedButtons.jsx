@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaCode, FaBrain, FaLaptopCode, FaPaintBrush, FaFeatherAlt, FaPenNib } from 'react-icons/fa'; // Import necessary icons
-import '../styles/ConnectedButtons.css';
+import '../styles/connectedButtons.css';
 
 function ConnectedButtons() {
   const [selectedCategory, setSelectedCategory] = useState(null);
