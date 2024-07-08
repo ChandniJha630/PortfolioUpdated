@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Loader.css';
-import { div } from 'three/examples/jsm/nodes/Nodes.js';
+
 
 function Loader() {
   const [loadingPercentage, setLoadingPercentage] = useState(0);
