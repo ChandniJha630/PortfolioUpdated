@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
-import socialLinks from '../data/social.json'; // Adjust the path to your social.json file
+import socialLinks from '../Data/social.json'; // Adjust the path to your social.json file
 import { Link } from 'react-router-dom'; // Assuming you are using React Router for routing
 import { LinkedIn, GitHub, Code, Article, YouTube, Subscriptions, Book, Instagram, Twitter } from '@mui/icons-material';
 
