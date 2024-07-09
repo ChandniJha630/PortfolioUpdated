@@ -21,7 +21,8 @@ function ConnectedButtons() {
   };
 
   return (
-    <div className='block w-1/3 absolute pt-40 right-10 md:left-0 md:w-2/3 md:mx-10'>
+    <div className='block w-1/3 absolute pt-40  right-10 phone-position'>
+      <div className='button-position w-full'>
       <div className="flex w-full justify-around py-5">
         <button className="button-white" onClick={() => handleButtonClick('Full Stack Developement')}><FaCode /></button> {/* Full Stack Web Development */}
         <button className="button-white" onClick={() => handleButtonClick('Machine Learning')}><FaBrain /></button> {/* Machine Learning */}
@@ -31,6 +32,7 @@ function ConnectedButtons() {
         <button className="button-white" onClick={() => handleButtonClick('UI/UX Design')}><FaPaintBrush /></button> {/* UI/UX Design */}
         <button className="button-white" onClick={() => handleButtonClick('Content Creation')}><FaFeatherAlt /></button> {/* Poetry Writing */}
         <button className="button-white" onClick={() => handleButtonClick('Poetry Writing')}><FaPenNib /></button> {/* Content Creation */}
+      </div>
       </div>
       {selectedCategory && (
         <div className="indicator-container">

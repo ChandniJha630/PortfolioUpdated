@@ -24,7 +24,7 @@ function Loader() {
   }, []);
 
   return (
-    <div className='max-h-screen  w-full'>
+    <div className='loader-background'>
     <div className='loader-container py-48'>
       <div className='loader-bar' style={{ width: `${loadingPercentage}%` }}>
         {loadingPercentage}%

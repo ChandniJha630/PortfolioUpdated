@@ -5,12 +5,15 @@
 #root{
   background-image: linear-gradient(90deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(67.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(112.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(45deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(90deg, rgb(95, 3, 74),rgb(35, 65, 96)); background-blend-mode:overlay,overlay,overlay,overlay,normal;  
 }
-.bg-about{
-  background-image: url('src/assets/bgabout.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
 
+.home{
+  background-image: linear-gradient(90deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(67.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(112.5deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(45deg, rgb(168, 86, 201) 0%, rgb(168, 86, 201) 3%,rgb(140, 74, 173) 3%, rgb(140, 74, 173) 11%,rgb(112, 61, 145) 11%, rgb(112, 61, 145) 20%,rgb(85, 49, 118) 20%, rgb(85, 49, 118) 49%,rgb(57, 37, 90) 49%, rgb(57, 37, 90) 71%,rgb(29, 24, 62) 71%, rgb(29, 24, 62) 72%,rgb(1, 12, 34) 72%, rgb(1, 12, 34) 100%),linear-gradient(90deg, rgb(95, 3, 74),rgb(35, 65, 96)); background-blend-mode:overlay,overlay,overlay,overlay,normal;  
+  width:100%;
+  height:100vh;
+}
+.textMy{
+  font-size:14px;
+}
 .nav-text{
   color:rgba(255, 255, 255, 0.281)
 }
@@ -146,6 +149,24 @@
   box-shadow: -5px 5px 0px 0px yellow;
 }
 
+
+@media (max-width:900px) {
+  .buttonr {
+    font-size: 0.8rem;
+    padding: 0.5em 0.5em;
+    background-color: #000;
+    border: 1px solid yellow;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -2px 2px 0px 0px rgb(222, 222, 154);
+  }
+
+.textMy{
+  font-size: 10px;
+}
+}
 .buttonr:hover {
   transform: translate(5px, -5px);
 }

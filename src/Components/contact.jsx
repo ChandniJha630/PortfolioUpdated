@@ -33,7 +33,7 @@ function Contact() {
 
   return (
     <div
-      className="min-h-screen p-0 flex lg:block lg:p-10 items-center justify-center"
+      className="min-h-screen p-0 flex lg:block lg:p-10 items-center justify-center lg:m-2.5"
     >
       <div className="bg-gray-800 bg-opacity-50 rounded-lg shadow-lg p-6"> {/* Added padding here */}
         {/* <h2 className="text-3xl font-semibold text-white mb-6">Contact Us</h2> */}

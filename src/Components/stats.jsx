@@ -3,7 +3,7 @@ import React from 'react';
 export default function Stats() {
 
   return (
-    <div className="stats stats-vertical shadow mx-5">
+    <div className="stats stats-vertical  shadow mx-5 lg:mx-2">
       <div className="stat" >
         <div className="stat-title" >LeetCode</div>
         <div className="stat-value" >400+</div>
