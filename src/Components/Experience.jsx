@@ -11,7 +11,7 @@ function Experience() {
       <div key={index} className="card">
         <img src={project.thumbnail} alt={project.title} />
         <div className="card-body">
-          <h5 className="card-title">{project.title}</h5>
+          <h5 className="card-title text-gray-400">{project.title}</h5>
           <p className="card-text">{project.description}</p>
           <Link to={project.link} className="btn btn-primary">Visit Project</Link>
         </div>
@@ -23,10 +23,10 @@ function Experience() {
     return researches.map((research, index) => (
       <div key={index} className="card">
         <div className="card-body">
-          <h5 className="card-title">{research.title}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{research.subtitle}</h6>
+          <h5 className="card-title text-gray-400">{research.title}</h5>
+          <h6 className="card-subtitle mb-2 text-muted text-blue-300">{research.subtitle}</h6>
           <p className="card-text">{research.description}</p>
-          <p className="card-text"><strong>Status:</strong> {research.status}</p>
+          <p className="card-text text-emerald-300"><strong>Status:</strong> {research.status}</p>
         </div>
       </div>
     ));
@@ -37,7 +37,7 @@ function Experience() {
       <div key={index} className="card">
         <div className="card-body">
           <img src={leader.logo} alt={leader.title} className="leadership-logo" />
-          <h5 className="card-title">{leader.title}</h5>
+          <h5 className="card-title text-gray-400">{leader.title}</h5>
           <p className="card-text">Term: {leader.start_date} - {leader.end_date}</p>
         </div>
       </div>
@@ -48,21 +48,21 @@ function Experience() {
     <div className="experience-container">
       <div className="horizontal-container">
         <div className="card-container">
-          <h1>FullStack Projects</h1>
+          <h1 className="text-gray-600">FullStack Projects</h1>
           <div className="scrollable-cards">
             {renderWebProjects()}
           </div>
         </div>
 
         <div className="card-container">
-          <h1>Research And Publications</h1>
+          <h1 className="text-gray-600">Research And Publications</h1>
           <div className="scrollable-cards">
             {renderResearches()}
           </div>
         </div>
 
         <div className="card-container">
-          <h1>Leadership Experience</h1>
+          <h1 className="text-gray-600">Leadership Experience</h1>
           <div className="scrollable-cards">
             {renderLeadership()}
           </div>

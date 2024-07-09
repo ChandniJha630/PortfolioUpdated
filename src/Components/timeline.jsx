@@ -3,7 +3,7 @@ import React from 'react'
 function Timeline() {
   return (
     <div>
-      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul className="timeline text-white timeline-snap-icon max-md:timeline-compact timeline-vertical">
   <li>
     <div className="timeline-middle">
       <svg
