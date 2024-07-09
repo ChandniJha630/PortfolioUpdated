@@ -21,7 +21,7 @@
       "status": "live"
     },
     {
-      "thumbnail": "../assets/fit.png",
+      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/c4d98949-3ba0-40a2-9aef-37214d716351",
       "title": "Fitness Application",
       "description": "A Fitness Application was built with python, Streamlit and PLSQL for providing user fitness suggestion.",
       "link": "https://youtu.be/GcHKlDuWQ88",
