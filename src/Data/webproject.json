@@ -21,14 +21,14 @@
       "status": "live"
     },
     {
-      "thumbnail": "https://toppng.com/show_download/227713/exercise-silhouette-fitness-centre-woman-general-fitness-silhouette-exercise",
+      "thumbnail": "../assets/fit.png",
       "title": "Fitness Application",
       "description": "A Fitness Application was built with python, Streamlit and PLSQL for providing user fitness suggestion.",
-      "link": "",
+      "link": "https://youtu.be/GcHKlDuWQ88",
       "status": "Code Available"
     },
     {
-        "thumbnail": "https://i.pinimg.com/736x/05/48/16/0548167ada206571d8d501731bcfed6c.jpg",
+        "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.eF7SJ9Zn2oJwSxkzn3H-TwHaFH&pid=Api&P=0&h=180",
         "title": "Video Streaming Platform Backend",
         "description": "Fully Functional server with Rest API for integrated twitter and youtube like platform ",
         "link": "https://github.com/ChandniJha630/Youtube-Backend",
