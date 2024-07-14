@@ -11,7 +11,9 @@ function Experience() {
       <div key={index} className="card">
         <img src={project.thumbnail} alt={project.title} />
         <div className="card-body">
-          <h5 className="card-title text-gray-400">{project.title}</h5>
+          <h5 className="card-title text-gray-400">{project.title}
+          <span className='text-status m-0 p-0 font-extralight text-lime-500'>[{project.status}]</span>
+          </h5>
           <p className="card-text">{project.description}</p>
           <Link to={project.link} className="btn btn-primary">Visit Project</Link>
         </div>
@@ -26,7 +28,7 @@ function Experience() {
           <h5 className="card-title text-gray-400">{research.title}</h5>
           <h6 className="card-subtitle mb-2 text-muted text-blue-300">{research.subtitle}</h6>
           <p className="card-text">{research.description}</p>
-          <p className="card-text text-emerald-300"><strong>Status:</strong> {research.status}</p>
+          <p className=""><strong>Status:</strong> {research.status}</p>
         </div>
       </div>
     ));

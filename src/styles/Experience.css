@@ -3,8 +3,12 @@
     height:100vh;
     padding: 20px;
     margin: 0;
+    
   }
-  
+ 
+  .text-status{
+    font-size: 0.08rem;
+  }
   .horizontal-container {
     display: flex;
     justify-content: space-between;

@@ -13,13 +13,7 @@
       "link": "https://insights-ashy.vercel.app/",
       "status": "live"
     },
-    {
-      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/1420f267-129f-418f-81bc-812c283e901c",
-      "title": "Video Streaming Application FrontEnd",
-      "description": "Developed a full stack movie streaming platform using IMDB movie api, with searching, filtering, video playing, movie previewing functionalities like any other modern movie streaming platforms like netflix.",
-      "link": "https://moviex-nine.vercel.app/",
-      "status": "live"
-    },
+  
     {
       "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/c4d98949-3ba0-40a2-9aef-37214d716351",
       "title": "Fitness Application",
@@ -28,18 +22,18 @@
       "status": "Code Available"
     },
     {
-        "thumbnail": "https://tse3.mm.bing.net/th?id=OIP.eF7SJ9Zn2oJwSxkzn3H-TwHaFH&pid=Api&P=0&h=180",
-        "title": "Video Streaming Platform Backend",
+        "thumbnail": "https://chinese.freecodecamp.org/news/content/images/2022/09/github-on-the-hunt-for-a-new-diversity-lead-developers-techworld-github-universe-png-800_450.png",
+        "title": "Online Streaming Backend",
         "description": "Fully Functional server with Rest API for integrated twitter and youtube like platform ",
         "link": "https://github.com/ChandniJha630/Youtube-Backend",
         "status": "Code Available"
       },
     {
-      "thumbnail": "https://t3.ftcdn.net/jpg/05/14/75/82/360_F_514758236_i8rnB85PVdEaK19yGaK0TpaYEYMyxOL5.jpg",
-      "title": "E-Kart Application",
-      "description": "Full Stack E-Kart Application with separate user and admin Dashboard built using MERN Stack with payment integration.",
+      "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/5ee0dfcd-dffa-4301-9770-a7e9482e4854",
+      "title": "E-Commerce Application",
+      "description": "This is fully functional e commerce application with admin dashboard and charts . This Application is built with SASS, React, Mongodb, node, express, redux and Typescript",
       "link": "",
-      "status": "Working On It"
+      "status": "Building Backend"
     }
   ]
   
