@@ -6,8 +6,8 @@ export default function Stats() {
     <div className="stats stats-vertical  shadow mx-5 lg:mx-2 bg-gray-900 text-gray-400">
       <div className="stat" >
         <div className="stat-title text-gray-400 " >LeetCode</div>
-        <div className="stat-value" >400+</div>
-        <div className="stat-desc text-gray-400" >Rank- 1.5 Lakh</div>
+        <div className="stat-value" >450+</div>
+        <div className="stat-desc text-gray-400" >Rank- 1.4 Lakh (Top 4%)</div>
       </div>
 
       <div className="stat" >
