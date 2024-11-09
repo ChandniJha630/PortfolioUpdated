@@ -48,13 +48,13 @@ function Experience() {
 
   return (
     <div className="experience-container">
-      <div className="horizontal-container">
+       <div className="horizontal-container">
         <div className="card-container">
-          <h1 className="text-gray-600">FullStack Projects</h1>
-          <div className="scrollable-cards">
-            {renderWebProjects()}
+          <h1 className="text-gray-600">Internships</h1>
+          <span>Upcoming 6M SDE Intern at Amazon (Jan 2025- June 2025)</span>
           </div>
         </div>
+        
 
         <div className="card-container">
           <h1 className="text-gray-600">Research And Publications</h1>
@@ -62,13 +62,23 @@ function Experience() {
             {renderResearches()}
           </div>
         </div>
+         </div>
 
+        <div className="horizontal-container">
         <div className="card-container">
           <h1 className="text-gray-600">Leadership Experience</h1>
           <div className="scrollable-cards">
             {renderLeadership()}
           </div>
         </div>
+    
+        <div className="card-container">
+          <h1 className="text-gray-600">FullStack Projects</h1>
+          <div className="scrollable-cards">
+            {renderWebProjects()}
+          </div>
+        </div>
+    
       </div>
     </div>
   );
