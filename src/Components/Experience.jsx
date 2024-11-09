@@ -51,15 +51,8 @@ function Experience() {
        <div className="horizontal-container">
         <div className="card-container">
           <h1 className="text-gray-600">Internships</h1>
-          <span>Upcoming 6M SDE Intern at Amazon (Jan 2025- June 2025)</span>
-          </div>
-        </div>
-        
-
-        <div className="card-container">
-          <h1 className="text-gray-600">Research And Publications</h1>
-          <div className="scrollable-cards">
-            {renderResearches()}
+          
+           <p className="card-text">Upcoming 6M SDE Intern at Amazon (Jan 2025- June 2025)</p>
           </div>
         </div>
          </div>
@@ -71,6 +64,14 @@ function Experience() {
             {renderLeadership()}
           </div>
         </div>
+
+         <div className="card-container">
+          <h1 className="text-gray-600">Research And Publications</h1>
+          <div className="scrollable-cards">
+            {renderResearches()}
+          </div>
+        </div>
+
     
         <div className="card-container">
           <h1 className="text-gray-600">FullStack Projects</h1>
