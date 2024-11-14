@@ -23,7 +23,7 @@ function Contact() {
   const sendEmail = (e) => {
     setSubmitStatus('Submitted');
     e.preventDefault();
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm(process.env.SERVICE, process.env.TEMPLATE, form.current, process.env.USER)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
