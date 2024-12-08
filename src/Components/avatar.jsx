@@ -1,5 +1,5 @@
 import React from 'react'
-import DP from "../assets/dp.jpg"
+import DP from "../assets/profile.jpg"
 import Stats from './stats'
 import '../styles/avatar.css'
 
