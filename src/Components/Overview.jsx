@@ -10,7 +10,7 @@ export default function Overview() {
             <Link to="https://www.amazon.in/Rekhanjali-Chandni-Jha/dp/B0B8264DNW/ref=sr_1_14?keywords=chandni+jha+poetry&qid=1688485326&sr=8-14"> Rekhanjali
             </Link>. You can view her creative content on YouTube channels Quanta Bytes (Infotainment based) and Rhythm Of Thoughts (Poetry based). She has achieved a world record for a book based on "Saino Poetry" - 100 Sainos.
           </p>
-          <Link to='https://docs.google.com/document/d/1x9d71MoSFUiOLlHA7FRrqvzbnzxfc8Ue/edit?usp=sharing&ouid=101045511593766091252&rtpof=true&sd=true'>
+          <Link to='https://docs.google.com/document/d/1hOivwy-Wk_FJKKWdgwb6Qf3uxS4yuybi/edit?usp=sharing&ouid=101045511593766091252&rtpof=true&sd=true'>
             <button className="buttonr mx-5 my-10 lg:my-2 lg:mx-2">
               View Resume
             </button>
